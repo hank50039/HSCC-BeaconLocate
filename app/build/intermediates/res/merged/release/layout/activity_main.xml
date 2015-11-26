@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="20dp">
+
+
+    <TextView
+        android:id="@+id/activity_main_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Use your phone and beacon around you to locate your position."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/activity_main_button_locate"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/activity_main_textView"
+        android:layout_marginTop="10dp"
+        android:text="Locate" />
+
+
+
+    <Button
+        android:id="@+id/activity_main_button_test"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/activity_main_button_locate"
+        android:text="Test Signal" />
+
+
+    <Button
+        android:id="@+id/activity_main_button_mark"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/activity_main_button_test"
+        android:text="Mark Signal" />
+</RelativeLayout><!-- From: file:/Users/tommymac/Documents/Android_Work_Space/Student_ibeacon/app/src/main/res/layout/activity_main.xml -->
